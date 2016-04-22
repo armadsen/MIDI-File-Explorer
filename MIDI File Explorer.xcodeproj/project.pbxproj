@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D1D45721CCABD93008A61ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D45711CCABD93008A61ED /* AppDelegate.m */; };
+		9D1D45751CCABD93008A61ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D45741CCABD93008A61ED /* main.m */; };
+		9D1D45781CCABD93008A61ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D45771CCABD93008A61ED /* ViewController.m */; };
+		9D1D457A1CCABD93008A61ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1D45791CCABD93008A61ED /* Assets.xcassets */; };
+		9D1D457D1CCABD93008A61ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1D457B1CCABD93008A61ED /* Main.storyboard */; };
+		9D1D45881CCABD93008A61ED /* MIDI_File_ExplorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D45871CCABD93008A61ED /* MIDI_File_ExplorerTests.m */; };
+		9D1D45931CCABD93008A61ED /* MIDI_File_ExplorerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D45921CCABD93008A61ED /* MIDI_File_ExplorerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D1D45841CCABD93008A61ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D1D45651CCABD93008A61ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1D456C1CCABD93008A61ED;
+			remoteInfo = "MIDI File Explorer";
+		};
+		9D1D458F1CCABD93008A61ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D1D45651CCABD93008A61ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1D456C1CCABD93008A61ED;
+			remoteInfo = "MIDI File Explorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D1D456D1CCABD93008A61ED /* MIDI File Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MIDI File Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1D45701CCABD93008A61ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D1D45711CCABD93008A61ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D1D45741CCABD93008A61ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D1D45761CCABD93008A61ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D1D45771CCABD93008A61ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D1D45791CCABD93008A61ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D1D457C1CCABD93008A61ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D1D457E1CCABD93008A61ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D1D45831CCABD93008A61ED /* MIDI File ExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MIDI File ExplorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1D45871CCABD93008A61ED /* MIDI_File_ExplorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIDI_File_ExplorerTests.m; sourceTree = "<group>"; };
+		9D1D45891CCABD93008A61ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D1D458E1CCABD93008A61ED /* MIDI File ExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MIDI File ExplorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1D45921CCABD93008A61ED /* MIDI_File_ExplorerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIDI_File_ExplorerUITests.m; sourceTree = "<group>"; };
+		9D1D45941CCABD93008A61ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D1D456A1CCABD93008A61ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1D45801CCABD93008A61ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1D458B1CCABD93008A61ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D1D45641CCABD93008A61ED = {
+			isa = PBXGroup;
+			children = (
+				9D1D456F1CCABD93008A61ED /* MIDI File Explorer */,
+				9D1D45861CCABD93008A61ED /* MIDI File ExplorerTests */,
+				9D1D45911CCABD93008A61ED /* MIDI File ExplorerUITests */,
+				9D1D456E1CCABD93008A61ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D1D456E1CCABD93008A61ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D1D456D1CCABD93008A61ED /* MIDI File Explorer.app */,
+				9D1D45831CCABD93008A61ED /* MIDI File ExplorerTests.xctest */,
+				9D1D458E1CCABD93008A61ED /* MIDI File ExplorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D1D456F1CCABD93008A61ED /* MIDI File Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				9D1D45701CCABD93008A61ED /* AppDelegate.h */,
+				9D1D45711CCABD93008A61ED /* AppDelegate.m */,
+				9D1D45761CCABD93008A61ED /* ViewController.h */,
+				9D1D45771CCABD93008A61ED /* ViewController.m */,
+				9D1D45791CCABD93008A61ED /* Assets.xcassets */,
+				9D1D457B1CCABD93008A61ED /* Main.storyboard */,
+				9D1D457E1CCABD93008A61ED /* Info.plist */,
+				9D1D45731CCABD93008A61ED /* Supporting Files */,
+			);
+			path = "MIDI File Explorer";
+			sourceTree = "<group>";
+		};
+		9D1D45731CCABD93008A61ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D1D45741CCABD93008A61ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D1D45861CCABD93008A61ED /* MIDI File ExplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D1D45871CCABD93008A61ED /* MIDI_File_ExplorerTests.m */,
+				9D1D45891CCABD93008A61ED /* Info.plist */,
+			);
+			path = "MIDI File ExplorerTests";
+			sourceTree = "<group>";
+		};
+		9D1D45911CCABD93008A61ED /* MIDI File ExplorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D1D45921CCABD93008A61ED /* MIDI_File_ExplorerUITests.m */,
+				9D1D45941CCABD93008A61ED /* Info.plist */,
+			);
+			path = "MIDI File ExplorerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D1D456C1CCABD93008A61ED /* MIDI File Explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D1D45971CCABD93008A61ED /* Build configuration list for PBXNativeTarget "MIDI File Explorer" */;
+			buildPhases = (
+				9D1D45691CCABD93008A61ED /* Sources */,
+				9D1D456A1CCABD93008A61ED /* Frameworks */,
+				9D1D456B1CCABD93008A61ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MIDI File Explorer";
+			productName = "MIDI File Explorer";
+			productReference = 9D1D456D1CCABD93008A61ED /* MIDI File Explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D1D45821CCABD93008A61ED /* MIDI File ExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D1D459A1CCABD93008A61ED /* Build configuration list for PBXNativeTarget "MIDI File ExplorerTests" */;
+			buildPhases = (
+				9D1D457F1CCABD93008A61ED /* Sources */,
+				9D1D45801CCABD93008A61ED /* Frameworks */,
+				9D1D45811CCABD93008A61ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D1D45851CCABD93008A61ED /* PBXTargetDependency */,
+			);
+			name = "MIDI File ExplorerTests";
+			productName = "MIDI File ExplorerTests";
+			productReference = 9D1D45831CCABD93008A61ED /* MIDI File ExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D1D458D1CCABD93008A61ED /* MIDI File ExplorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D1D459D1CCABD93008A61ED /* Build configuration list for PBXNativeTarget "MIDI File ExplorerUITests" */;
+			buildPhases = (
+				9D1D458A1CCABD93008A61ED /* Sources */,
+				9D1D458B1CCABD93008A61ED /* Frameworks */,
+				9D1D458C1CCABD93008A61ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D1D45901CCABD93008A61ED /* PBXTargetDependency */,
+			);
+			name = "MIDI File ExplorerUITests";
+			productName = "MIDI File ExplorerUITests";
+			productReference = 9D1D458E1CCABD93008A61ED /* MIDI File ExplorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D1D45651CCABD93008A61ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Open Reel Software";
+				TargetAttributes = {
+					9D1D456C1CCABD93008A61ED = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9D1D45821CCABD93008A61ED = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9D1D456C1CCABD93008A61ED;
+					};
+					9D1D458D1CCABD93008A61ED = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9D1D456C1CCABD93008A61ED;
+					};
+				};
+			};
+			buildConfigurationList = 9D1D45681CCABD93008A61ED /* Build configuration list for PBXProject "MIDI File Explorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D1D45641CCABD93008A61ED;
+			productRefGroup = 9D1D456E1CCABD93008A61ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D1D456C1CCABD93008A61ED /* MIDI File Explorer */,
+				9D1D45821CCABD93008A61ED /* MIDI File ExplorerTests */,
+				9D1D458D1CCABD93008A61ED /* MIDI File ExplorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D1D456B1CCABD93008A61ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1D457A1CCABD93008A61ED /* Assets.xcassets in Resources */,
+				9D1D457D1CCABD93008A61ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1D45811CCABD93008A61ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1D458C1CCABD93008A61ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D1D45691CCABD93008A61ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1D45781CCABD93008A61ED /* ViewController.m in Sources */,
+				9D1D45751CCABD93008A61ED /* main.m in Sources */,
+				9D1D45721CCABD93008A61ED /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1D457F1CCABD93008A61ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1D45881CCABD93008A61ED /* MIDI_File_ExplorerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1D458A1CCABD93008A61ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1D45931CCABD93008A61ED /* MIDI_File_ExplorerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D1D45851CCABD93008A61ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D1D456C1CCABD93008A61ED /* MIDI File Explorer */;
+			targetProxy = 9D1D45841CCABD93008A61ED /* PBXContainerItemProxy */;
+		};
+		9D1D45901CCABD93008A61ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D1D456C1CCABD93008A61ED /* MIDI File Explorer */;
+			targetProxy = 9D1D458F1CCABD93008A61ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D1D457B1CCABD93008A61ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D1D457C1CCABD93008A61ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D1D45951CCABD93008A61ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9D1D45961CCABD93008A61ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9D1D45981CCABD93008A61ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MIDI File Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.MIDI-File-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D1D45991CCABD93008A61ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MIDI File Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.MIDI-File-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D1D459B1CCABD93008A61ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MIDI File ExplorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.MIDI-File-ExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MIDI File Explorer.app/Contents/MacOS/MIDI File Explorer";
+			};
+			name = Debug;
+		};
+		9D1D459C1CCABD93008A61ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MIDI File ExplorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.MIDI-File-ExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MIDI File Explorer.app/Contents/MacOS/MIDI File Explorer";
+			};
+			name = Release;
+		};
+		9D1D459E1CCABD93008A61ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MIDI File ExplorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.MIDI-File-ExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MIDI File Explorer";
+			};
+			name = Debug;
+		};
+		9D1D459F1CCABD93008A61ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MIDI File ExplorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.MIDI-File-ExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MIDI File Explorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D1D45681CCABD93008A61ED /* Build configuration list for PBXProject "MIDI File Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D1D45951CCABD93008A61ED /* Debug */,
+				9D1D45961CCABD93008A61ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D1D45971CCABD93008A61ED /* Build configuration list for PBXNativeTarget "MIDI File Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D1D45981CCABD93008A61ED /* Debug */,
+				9D1D45991CCABD93008A61ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D1D459A1CCABD93008A61ED /* Build configuration list for PBXNativeTarget "MIDI File ExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D1D459B1CCABD93008A61ED /* Debug */,
+				9D1D459C1CCABD93008A61ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D1D459D1CCABD93008A61ED /* Build configuration list for PBXNativeTarget "MIDI File ExplorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D1D459E1CCABD93008A61ED /* Debug */,
+				9D1D459F1CCABD93008A61ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D1D45651CCABD93008A61ED /* Project object */;
+}

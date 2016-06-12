@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ORSMainViewController.h
 //  MIDI File Explorer
 //
 //  Created by Andrew Madsen on 4/22/16.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
-
+@interface ORSMainViewController : NSViewController
 
 @end
-

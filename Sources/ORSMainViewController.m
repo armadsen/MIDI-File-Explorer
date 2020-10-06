@@ -8,12 +8,14 @@
 
 #import "ORSMainViewController.h"
 #import <MIKMIDI/MIKMIDI.h>
+#import "MIKMIDIEvent+GrossHacks.h"
+#import "ORSMIDIEventsController.h"
 
 @interface ORSMainViewController ()
 
 @property (nonatomic, strong) MIKMIDISequence *sequence;
 @property (strong) IBOutlet NSArrayController *tracksController;
-@property (strong) IBOutlet NSArrayController *eventsController;
+@property (strong) IBOutlet ORSMIDIEventsController *eventsController;
 @property (strong) IBOutlet NSTableView *tracksTableView;
 @property (strong) IBOutlet NSTableView *eventsTableView;
 
@@ -53,6 +55,14 @@
 	if (!track) return;
 	
 	NSLog(@"%@", track);
+}
+
+- (void)setSequence:(MIKMIDISequence *)sequence
+{
+    if (sequence != _sequence) {
+        _sequence = sequence;
+        self.eventsController.sequence = sequence;
+    }
 }
 
 @end

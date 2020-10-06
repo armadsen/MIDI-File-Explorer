@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17156"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -769,13 +769,13 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8Q-xU-CTB">
-                                                <rect key="frame" x="0.0" y="0.0" width="646" height="169"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="646" height="121"/>
                                                 <clipView key="contentView" id="T5n-iS-2Jq">
-                                                    <rect key="frame" x="1" y="0.0" width="644" height="168"/>
+                                                    <rect key="frame" x="1" y="0.0" width="644" height="120"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="8S4-5K-oiy" viewBased="YES" id="H3d-AU-46z">
-                                                            <rect key="frame" x="0.0" y="0.0" width="644" height="145"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="644" height="97"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <size key="intercellSpacing" width="3" height="2"/>
                                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -800,13 +800,12 @@
                                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="fSS-dS-dEa">
                                                                                     <rect key="frame" x="0.0" y="1" width="100" height="16"/>
                                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="ZEY-7d-mFZ">
-                                                                                        <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="Z6T-Ij-1DE"/>
                                                                                         <font key="font" metaFont="system"/>
                                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                                     </textFieldCell>
                                                                                     <connections>
-                                                                                        <binding destination="g77-Nx-F9n" name="value" keyPath="objectValue.timeStamp" id="jBm-7X-lLZ"/>
+                                                                                        <binding destination="g77-Nx-F9n" name="value" keyPath="objectValue.displayTimeStampString" id="ABn-j7-xUx"/>
                                                                                     </connections>
                                                                                 </textField>
                                                                             </subviews>
@@ -1063,7 +1062,7 @@
                         <binding destination="XfG-lQ-9wD" name="contentArray" keyPath="sequence.tracksIncludingTempo" id="nMs-Bq-aN4"/>
                     </connections>
                 </arrayController>
-                <arrayController objectClassName="MIKMIDIEvent" id="gD9-zB-aAQ" userLabel="Events Controller">
+                <arrayController objectClassName="MIKMIDIEvent" id="gD9-zB-aAQ" userLabel="Events Controller" customClass="ORSMIDIEventsController">
                     <connections>
                         <binding destination="nD7-zT-fOH" name="contentArray" keyPath="selection.events" id="Nmn-YA-Trh"/>
                     </connections>

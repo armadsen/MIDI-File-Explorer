@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MIKMIDIEvent (GrossHacks)
 
 @property (nonatomic, readonly) NSString *eventTypeName;
+@property (nonatomic, readonly) NSString *displayTimeStampString;
+@property (nonatomic, weak) MIKMIDISequence *sequence;
 
 @end
 

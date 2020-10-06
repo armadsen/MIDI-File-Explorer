@@ -69,6 +69,7 @@
 		9DBD5E7C1CCAC32B005262E7 /* ORSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSMainViewController.h; sourceTree = "<group>"; };
 		9DBD5E7D1CCAC32B005262E7 /* ORSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSMainViewController.m; sourceTree = "<group>"; };
 		9DEB6DBC252BBC94008D2519 /* MIKMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MIKMIDI.framework; path = Carthage/Build/Mac/MIKMIDI.framework; sourceTree = "<group>"; };
+		9DEB6DE0252CBAFA008D2519 /* MIDI File Explorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "MIDI File Explorer.entitlements"; path = "MIDI File Explorer/MIDI File Explorer.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 		9D1D45641CCABD93008A61ED = {
 			isa = PBXGroup;
 			children = (
+				9DEB6DE0252CBAFA008D2519 /* MIDI File Explorer.entitlements */,
 				9D1D456F1CCABD93008A61ED /* Sources */,
 				9DBD5E7B1CCAC302005262E7 /* Resources */,
 				9DEB6DBB252BBC70008D2519 /* Frameworks */,
@@ -247,6 +249,8 @@
 				TargetAttributes = {
 					9D1D456C1CCABD93008A61ED = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2CX7W99FJ9;
+						ProvisioningStyle = Automatic;
 					};
 					9D1D45821CCABD93008A61ED = {
 						CreatedOnToolsVersion = 7.3;
@@ -445,7 +449,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MIDI File Explorer/MIDI File Explorer.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2CX7W99FJ9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -454,6 +463,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.MIDI-File-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -461,7 +471,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MIDI File Explorer/MIDI File Explorer.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2CX7W99FJ9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -470,6 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.MIDI-File-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

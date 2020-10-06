@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D1D45721CCABD93008A61ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D45711CCABD93008A61ED /* AppDelegate.m */; };
-		9D1D45751CCABD93008A61ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D45741CCABD93008A61ED /* main.m */; };
 		9D1D457A1CCABD93008A61ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1D45791CCABD93008A61ED /* Assets.xcassets */; };
 		9D1D457D1CCABD93008A61ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1D457B1CCABD93008A61ED /* Main.storyboard */; };
 		9D1D45881CCABD93008A61ED /* MIDI_File_ExplorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D45871CCABD93008A61ED /* MIDI_File_ExplorerTests.m */; };
 		9D1D45931CCABD93008A61ED /* MIDI_File_ExplorerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D45921CCABD93008A61ED /* MIDI_File_ExplorerUITests.m */; };
-		9DAE071A23125F1A0070F0A9 /* MIKMIDIEvent+GrossHacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAE071923125F1A0070F0A9 /* MIKMIDIEvent+GrossHacks.m */; };
-		9DBD5E7E1CCAC32B005262E7 /* ORSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD5E7D1CCAC32B005262E7 /* ORSMainViewController.m */; };
+		9DD24084252CC140006358E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD2407D252CC140006358E8 /* AppDelegate.m */; };
+		9DD24085252CC140006358E8 /* MIKMIDIEvent+GrossHacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD2407F252CC140006358E8 /* MIKMIDIEvent+GrossHacks.m */; };
+		9DD24086252CC140006358E8 /* ORSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD24080252CC140006358E8 /* ORSMainViewController.m */; };
+		9DD24087252CC140006358E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD24082252CC140006358E8 /* main.m */; };
 		9DEB6DBE252BBC95008D2519 /* MIKMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEB6DBC252BBC94008D2519 /* MIKMIDI.framework */; };
 		9DEB6DBF252BBC95008D2519 /* MIKMIDI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEB6DBC252BBC94008D2519 /* MIKMIDI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -52,9 +52,6 @@
 
 /* Begin PBXFileReference section */
 		9D1D456D1CCABD93008A61ED /* MIDI File Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MIDI File Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D1D45701CCABD93008A61ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9D1D45711CCABD93008A61ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9D1D45741CCABD93008A61ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D1D45791CCABD93008A61ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D1D457C1CCABD93008A61ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D1D457E1CCABD93008A61ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,12 +61,15 @@
 		9D1D458E1CCABD93008A61ED /* MIDI File ExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MIDI File ExplorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1D45921CCABD93008A61ED /* MIDI_File_ExplorerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIDI_File_ExplorerUITests.m; sourceTree = "<group>"; };
 		9D1D45941CCABD93008A61ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DAE071823125F1A0070F0A9 /* MIKMIDIEvent+GrossHacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MIKMIDIEvent+GrossHacks.h"; sourceTree = "<group>"; };
-		9DAE071923125F1A0070F0A9 /* MIKMIDIEvent+GrossHacks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MIKMIDIEvent+GrossHacks.m"; sourceTree = "<group>"; };
-		9DBD5E7C1CCAC32B005262E7 /* ORSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSMainViewController.h; sourceTree = "<group>"; };
-		9DBD5E7D1CCAC32B005262E7 /* ORSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSMainViewController.m; sourceTree = "<group>"; };
+		9DD2407D252CC140006358E8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DD2407E252CC140006358E8 /* MIKMIDIEvent+GrossHacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MIKMIDIEvent+GrossHacks.h"; sourceTree = "<group>"; };
+		9DD2407F252CC140006358E8 /* MIKMIDIEvent+GrossHacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MIKMIDIEvent+GrossHacks.m"; sourceTree = "<group>"; };
+		9DD24080252CC140006358E8 /* ORSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSMainViewController.m; sourceTree = "<group>"; };
+		9DD24081252CC140006358E8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DD24082252CC140006358E8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DD24083252CC140006358E8 /* ORSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSMainViewController.h; sourceTree = "<group>"; };
 		9DEB6DBC252BBC94008D2519 /* MIKMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MIKMIDI.framework; path = Carthage/Build/Mac/MIKMIDI.framework; sourceTree = "<group>"; };
-		9DEB6DE0252CBAFA008D2519 /* MIDI File Explorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "MIDI File Explorer.entitlements"; path = "MIDI File Explorer/MIDI File Explorer.entitlements"; sourceTree = "<group>"; };
+		9DEB6DE0252CBAFA008D2519 /* MIDI File Explorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MIDI File Explorer.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +101,8 @@
 		9D1D45641CCABD93008A61ED = {
 			isa = PBXGroup;
 			children = (
-				9DEB6DE0252CBAFA008D2519 /* MIDI File Explorer.entitlements */,
-				9D1D456F1CCABD93008A61ED /* Sources */,
-				9DBD5E7B1CCAC302005262E7 /* Resources */,
+				9DD24078252CC10C006358E8 /* Sources */,
+				9DD24077252CC0FC006358E8 /* Resources */,
 				9DEB6DBB252BBC70008D2519 /* Frameworks */,
 				9D1D45861CCABD93008A61ED /* MIDI File ExplorerTests */,
 				9D1D45911CCABD93008A61ED /* MIDI File ExplorerUITests */,
@@ -119,29 +118,6 @@
 				9D1D458E1CCABD93008A61ED /* MIDI File ExplorerUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9D1D456F1CCABD93008A61ED /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				9D1D45701CCABD93008A61ED /* AppDelegate.h */,
-				9D1D45711CCABD93008A61ED /* AppDelegate.m */,
-				9D1D45731CCABD93008A61ED /* Supporting Files */,
-				9DBD5E7C1CCAC32B005262E7 /* ORSMainViewController.h */,
-				9DBD5E7D1CCAC32B005262E7 /* ORSMainViewController.m */,
-				9DAE071823125F1A0070F0A9 /* MIKMIDIEvent+GrossHacks.h */,
-				9DAE071923125F1A0070F0A9 /* MIKMIDIEvent+GrossHacks.m */,
-			);
-			name = Sources;
-			path = "MIDI File Explorer";
-			sourceTree = "<group>";
-		};
-		9D1D45731CCABD93008A61ED /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9D1D45741CCABD93008A61ED /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		9D1D45861CCABD93008A61ED /* MIDI File ExplorerTests */ = {
@@ -162,15 +138,37 @@
 			path = "MIDI File ExplorerUITests";
 			sourceTree = "<group>";
 		};
-		9DBD5E7B1CCAC302005262E7 /* Resources */ = {
+		9DD24077252CC0FC006358E8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9DEB6DE0252CBAFA008D2519 /* MIDI File Explorer.entitlements */,
 				9D1D45791CCABD93008A61ED /* Assets.xcassets */,
 				9D1D457B1CCABD93008A61ED /* Main.storyboard */,
 				9D1D457E1CCABD93008A61ED /* Info.plist */,
 			);
-			name = Resources;
-			path = "MIDI File Explorer";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9DD24078252CC10C006358E8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9DD24081252CC140006358E8 /* AppDelegate.h */,
+				9DD2407D252CC140006358E8 /* AppDelegate.m */,
+				9DD24083252CC140006358E8 /* ORSMainViewController.h */,
+				9DD24080252CC140006358E8 /* ORSMainViewController.m */,
+				9DD2407E252CC140006358E8 /* MIKMIDIEvent+GrossHacks.h */,
+				9DD2407F252CC140006358E8 /* MIKMIDIEvent+GrossHacks.m */,
+				9DD2408A252CC143006358E8 /* Other Sources */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9DD2408A252CC143006358E8 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9DD24082252CC140006358E8 /* main.m */,
+			);
+			path = "Other Sources";
 			sourceTree = "<group>";
 		};
 		9DEB6DBB252BBC70008D2519 /* Frameworks */ = {
@@ -314,10 +312,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D1D45751CCABD93008A61ED /* main.m in Sources */,
-				9DAE071A23125F1A0070F0A9 /* MIKMIDIEvent+GrossHacks.m in Sources */,
-				9D1D45721CCABD93008A61ED /* AppDelegate.m in Sources */,
-				9DBD5E7E1CCAC32B005262E7 /* ORSMainViewController.m in Sources */,
+				9DD24084252CC140006358E8 /* AppDelegate.m in Sources */,
+				9DD24085252CC140006358E8 /* MIKMIDIEvent+GrossHacks.m in Sources */,
+				9DD24087252CC140006358E8 /* main.m in Sources */,
+				9DD24086252CC140006358E8 /* ORSMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "MIDI File Explorer/MIDI File Explorer.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Resources/MIDI File Explorer.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -459,7 +457,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = "MIDI File Explorer/Info.plist";
+				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.MIDI-File-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -471,7 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "MIDI File Explorer/MIDI File Explorer.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Resources/MIDI File Explorer.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -481,7 +479,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = "MIDI File Explorer/Info.plist";
+				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.MIDI-File-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
